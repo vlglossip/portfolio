@@ -525,3 +525,9 @@ nav ul li:hover {
        font-size: 1rem; 
    }
 }
+
+@media (min-width: 375px) and (min-resolution: 1.25dppx) {
+   .home-container p {
+       font-size: 1rem; 
+   }
+}
