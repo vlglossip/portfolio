@@ -535,6 +535,14 @@ nav ul li:hover {
    }
 }
 
+@media screen and (max-width: 480px) {
+   .home-container p {
+      font-size: large; /* Adjust this as needed, e.g., medium or small */
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+}
+
 @media (min-width: 375px) and (min-resolution: 1.5dppx) {
    .home-container p {
        font-size: 1rem; 
